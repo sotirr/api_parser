@@ -1,0 +1,26 @@
+[default]
+# genetal setting
+name = 'api_parser'
+version = '0.8'
+# DB settings
+host = 'xxxx'
+port = 9021
+database = 'smp'
+hb_smp_table = 'hb_smp_test'
+stl_smp_table = 'stl_smp_test'
+# api settings
+auth_url = 'http://xxxxx/JsonDBService/git/service/authentificationV2/p'
+data_url = 'http://xxxxx/JsonDBService/git/service/sqllogin/p'
+# logging settings
+log_to_file = false
+log_to_console = true
+log_file = 'api_parser.log'
+logging_level = 'DEBUG'
+# resources settings 
+data_folder = 'resources'
+# handbooks
+kind_hdbk = 'id_kind.json'
+call_status_hdbk = 'call_status.json'
+call_result_hdbk = 'call_result.json'
+id_attribute_hdbk = 'id_attribute.json'
+oms_care_hdbk = 'oms_care_status.json'
